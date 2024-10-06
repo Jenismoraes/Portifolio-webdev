@@ -1,7 +1,8 @@
-import profilePlaceholder from "../../assets/react.svg";
 import Badge from "../../components/badge";
 import Button from "../../components/button";
 import { Paragraph, Title } from "../../components/typography";
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
     return (
@@ -11,17 +12,19 @@ const Home = () => {
                     <Badge>Jeniffer Moraes</Badge>
                     <Title className="mt-6">Design e estudante de Engenharia de SoftWare.</Title>
                     <Paragraph className="mt-4 text-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </Paragraph>
+                    Olá, me chamo Jeniffer Moraes, muito prazer e seja bem vindo ao meu portifolio! Atualmente sou estudante de engenharia de software na FIAP, e trabalho como designer e social mídia na Animma Digital a cerca de dois anos! Possuo conhecimento em liguagens como Python, JavaScript, C++ e linguagens de marcação como HTML e CSS, alem de ser desinger, haha. Busco conhecimento e experiências, espero que goste dos meus projetos!                     </Paragraph>
                     <Button className="mt-6">
-                        <p className="text-xl">Conheça meus projetos</p>
+                        <Link to="/projetos/0">
+                            <p className="text-xl">Conheça meus projetos</p>
+                        </Link>
                     </Button>
+
                 </div>
                 <div className="flex justify-center md:justify-center w-full">
                     <img
-                        src={profilePlaceholder}
+                        src="./public/imgs/photo_jenis.jpeg"
                         alt="Minha foto"
-                        className="w-48 h-48 object-cover rounded-full mt-8 md:mt-0"
+                        className="w-80 h-80 object-cover mt-8 md:mt-0"
                     />
                 </div>
             </div>
