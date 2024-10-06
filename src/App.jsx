@@ -4,6 +4,8 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import Home from "./pages/home";
 import Projetos from "./pages/projetos";
+import Contato from "./pages/contato";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -17,6 +19,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projetos/:projectId" element={<Projetos />} />
+              <Route path="/contatos/:contatosId" element={<Contato />} />
             </Routes>
           </main>
           <Footer />

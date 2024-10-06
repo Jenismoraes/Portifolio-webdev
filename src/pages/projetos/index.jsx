@@ -33,7 +33,7 @@ const Projetos = () => {
 
     return (
         <div className="flex w-full">
-            <div className="mr-4 ml-4 mb-4 flex flex-col w-full rounded-lg md:flex-col items-end p-8 bg-white dark:bg-gray-900 dark:bg-gradient-to-r dark:from-[#13072e] dark:to-[#3f2182] from-gray-900 to-gray-700">
+            <div className="mr-4 ml-4 mb-4 flex flex-col w-full rounded-lg md:flex-col items-end p-8 bg-white dark:bg-gray-900 dark:bg-gradient-to-r dark:from-[#13072e] dark:to-[#822159] from-gray-900 to-gray-700">
                 <Slider settings={settings} currentSlide={currentSlide} className="h-full">
                     <div className="flex flex-col sm:flex-row w-full h-full">
                         <div className="flex items-center justify-center md:justify-center w-full ">
@@ -96,8 +96,6 @@ const Projetos = () => {
                     <Button className="mt-6 align-right" onClick={nextSlide}>Próximo Projeto</Button>
                 </div>
             </div>
-
-
         </div>
     );
 };

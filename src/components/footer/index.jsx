@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-r from-[#13072e] to-[#3f2182] text-white p-8 dark:bg-gray-900">
+        <footer className="bg-gradient-to-r from-[#13072e] to-[#822159] text-white p-8 dark:bg-gray-900">
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                 <div className="flex flex-col items-center md:items-start">
                     <div className="flex items-center mb-4">

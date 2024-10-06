@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slider = ({ children, currentSlide, className, settings = {} }) => {
     const {
-        duration = 500, // Duracao em milissegundos
+        duration = 500, 
     } = settings;
 
     return (
