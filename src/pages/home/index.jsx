@@ -21,9 +21,9 @@ const Home = () => {
                 </div>
                 <div className="flex justify-center md:justify-center w-full">
                     <img
-                        src="./public/imgs/photo_jenis.jpeg"
+                        src="./public/imgs/foto_jeni.jpeg"
                         alt="Minha foto"
-                        className="w-80 h-80 object-cover mt-8 md:mt-0"
+                        className="w-full h-full object-cover"
                     />
                 </div>
             </div>
